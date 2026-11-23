@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Native Android 12+ splash that matches the QuickParking launch design. -->
+<resources>
+    <style name="LaunchTheme" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowSplashScreenBackground">@color/quickparking_splash_background</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@mipmap/quickparking_splash_android12</item>
+    </style>
+</resources>

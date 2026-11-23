@@ -1,0 +1,33 @@
+name: quickparking_app
+description: QuickParking Smart Parking Management System
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.5
+  fl_chart: ^1.0.0
+  qr_flutter: ^4.1.0
+  file_picker: ^10.3.2
+  image_picker: ^1.2.1
+  permission_handler: ^12.0.1
+  intl: ^0.20.2
+  supabase_flutter: ^2.17.2
+  pdf: ^3.13.0
+  xml: ^7.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  image: ^4.9.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/branding/quickparking_icon.png

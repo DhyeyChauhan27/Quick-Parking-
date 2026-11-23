@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "QuickParking (Stable Web + Supabase)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "deviceId": "web-server",
+      "flutterMode": "release",
+      "serverReadyAction": {
+        "pattern": "lib\\\\main\\.dart is being served at http://0\\.0\\.0\\.0:(\\d+)",
+        "uriFormat": "http://127.0.0.1:%s",
+        "action": "openExternally"
+      },
+      "toolArgs": [
+        "--web-hostname=0.0.0.0",
+        "--web-port=8080",
+        "--dart-define-from-file=supabase.env.json"
+      ]
+    }
+  ]
+}
