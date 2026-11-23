@@ -58,6 +58,10 @@ Read [SUPABASE_SETUP.md](SUPABASE_SETUP.md), then run:
 ```powershell
 flutter pub get
 flutter run -d chrome --dart-define-from-file=supabase.env.json
+
+flutter pub get
+flutter devices
+flutter run --dart-define-from-file=supabase.env.json
 ```
 
 The complete database schema, RLS policies, Storage policies, Realtime publication, triggers, indexes, and RPC functions are in `supabase/schema.sql`.
